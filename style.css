@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-color: #c1c8e4;
+    padding: 30px;
+    margin: auto;
+    max-width: 1020px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-content: flex-start;
+}
+
+.card {
+    background-color: #5680e9;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 12px;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px springgreen, 0 0 5 px #000800;
+    position: relative;
+}
+.card .like {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    color: #c1c8e4;
+    cursor: pointer;    
+}
+
+.card .pic {
+    height: 100px;
+    width: 100%;
+    background-color: #84ceeb;
+    background-image: url(https://static.mk.ru/upload/entities/2017/05/02/articles/facebookPicture/ec/e2/a8/2f/eb93e87b3e82bb801f8b74a0dd53cf37.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pic.tmp {
+    background-image: url(https://allopicasso.ru/wa-data/public/shop/products/11/50/5011/images/26573/26573.750x0.jpg);
+    /*background-size: contain;*/
+    background-size: auto 80%;
+
+
+}
